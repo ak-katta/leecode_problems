@@ -1,0 +1,13 @@
+Problem Name: Final prices with a special discount in a shop
+Difficulty:- Easy
+Problem Link:-   https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/?envType=daily-question&envId=2025-05-16
+Approach:- Brute Force
+Time Complexity:- O(n*n)
+Space Complexity:- O(n)
+Explanation:-
+    iterate through the original array
+    if next element is smaller than or equal to the current element , we subtract that smaller element and we have to pay that amount
+    if next element is not smaller than current, we search through out the array for next smaller integer
+    if no smaller element found , we just give no discount
+    save the outputs to another array and return result
+
