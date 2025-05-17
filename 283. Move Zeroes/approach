@@ -1,0 +1,9 @@
+Problem Name: (283) Move Zeroes
+Difficulty:- Easy
+Problem Link:- https://leetcode.com/problems/move-zeroes/description/
+Approach:- Two Pointer
+Time Complexity:- O(n)
+Space Complexity:- O(1)
+Explanation:-
+    non_zeroes_pos stores the index of the position where the non zero element will go 
+    now loop iterate through out the array and save and update the non zeroes position and update the array
