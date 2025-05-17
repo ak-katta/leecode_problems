@@ -1,0 +1,10 @@
+Problem Name: (75) Sort Colors
+Difficulty:- Medium
+Problem Link:- https://leetcode.com/problems/sort-colors/description/?envType=daily-question&envId=2025-05-17
+Approach:- Two Pointer
+Time Complexity:- O(n)
+Space Complexity:- O(1)
+Explanation:-
+   zero_pos and two_pos are pointers which stores the index of the position where '0' and '2' will be stored
+   now loop iterate through the array and place '0' and '2' corresponding to zero_pos and two_pos values
+   here we only apply increment operator when either num[i] is '0' and '1' but not when num[i] is '2' because after swapping , the element that comes in that position is not tested either it is 0,1 or 2
