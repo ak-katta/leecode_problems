@@ -1,0 +1,9 @@
+Problem Name: Types of Triangle
+Difficulty:- Easy
+Problem Link:-   https://leetcode.com/problems/type-of-triangle/?envType=daily-question&envId=2025-05-20
+Approach:- Brute Force
+Time Complexity:- O(1) : as we are checking three conditions at once so time complexity is 1
+Space Complexity:- O(1) 
+Explanation:-
+  It just follows a simple approach of comparing the sides. If all sides are equal , it is equilateral. If any two sides are equal and follows triangle validation equation a+b>c, it is isosceles triangle.
+  If none of the sides are equal, we just need to verify triangle validation equation. If none of the above conditions satisfies, then it is not a triangle.
